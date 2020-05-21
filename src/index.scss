@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root {
+  --font-family: 'PT Sans', sans-serif;
+  --main-background-color: #fcff6e;
+}
+
+* {
+  margin: 0;
+} 
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: var(--font-family);
+}
